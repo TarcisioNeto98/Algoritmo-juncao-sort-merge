@@ -14,4 +14,9 @@ public class Aluno{
     public int getId(){
         return this.id;
     }
+
+    @Override
+    public String toString(){
+        return this.nomeAluno + "," + this.id;
+    }
 }

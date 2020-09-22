@@ -14,4 +14,9 @@ public class Campus{
     public int getIdCampus(){
         return this.idCampus;
     }
+
+    @Override
+    public String toString(){
+        return this.nomeCampus + "," + this.idCampus;
+    }
 }
