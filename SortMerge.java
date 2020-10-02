@@ -97,7 +97,7 @@ public class SortMerge{
         for(int i = 0; i < resultado.size(); i++) System.out.println(resultado.get(i));
 
         try{
-            Path path = Files.createFile(Paths.get("texto.csv"));
+            Path path = Files.createFile(Paths.get("ALUNO-CAMPUS.csv"));
             System.out.println(Files.write(path, resultado));
         }catch(IOException e){
             e.printStackTrace();
